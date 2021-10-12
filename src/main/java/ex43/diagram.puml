@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App
+{
+    public static void main(String[] args)
+    public static void createWebsite(Website website)
+}
+
+class Website
+{
+    public String SiteName
+    public String Author
+    public boolean JavaScript
+    public boolean CSS
+
+    public Website(String SiteName, String Author, String JavaScript, String CSS)
+}
+
+App --|> Website
+Website --|> App
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App
+{
+    public static void main(String[] args)
+    public static ArrayList<Word> createWords(ArrayList<String> wordStrings)
+}
+
+class Word
+{
+    public String Value
+    public int Amount
+}
+
+App --|> Word
+Word --|> App
+
+@enduml

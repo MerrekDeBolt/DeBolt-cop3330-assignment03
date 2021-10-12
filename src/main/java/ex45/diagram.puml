@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App
+{
+    public static void main(String[] args)
+    public static String fileToString()
+    public static String replaceString(String text)
+}
+
+@enduml

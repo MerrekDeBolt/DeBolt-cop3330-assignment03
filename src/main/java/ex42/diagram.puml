@@ -4,13 +4,14 @@
 class App
 {
     public static void main(String[] args)
-    public static Record[] sortRecords(List<String> lines)
     public static Record[] createRecords(List<String> lines)
 }
 
 class Record
 {
-String Value
+    public String LastName
+    public String FirstName
+    public int Salary
 }
 
 App --|> Record

@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App
+{
+    public static void main(String[] args)
+    public static Item createProducts()
+    public static boolean isItemNotFound(Item item, String input)
+}
+
+class Item
+{
+    public Products[] products
+    public int CurrentIndex
+}
+
+class Products
+{
+    public String name
+    public double price
+    public int quantity
+}
+
+App --|> Item
+Item --|> App
+Products --|> Item
+
+@enduml

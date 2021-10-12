@@ -1,0 +1,14 @@
+The goal is to read in a text file, then parse it, then display it as a table.
+
+The program reads in the text file as a List of String's.
+
+The List of String's is then parsed with substrings and indexOf functions like so:
+///
+records[index].LastName = line.substring(startOfSubstring, whereCommaIs);
+records[index].FirstName = line.substring(startOfSubstring, whereCommaIs);
+records[index].Salary = line.substring(startOfSubstring, endOfLine);
+///
+
+The array of Record's is now formatted and displayed as a table.
+
+The program ends.

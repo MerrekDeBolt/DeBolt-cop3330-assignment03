@@ -1,0 +1,13 @@
+The goal is to read in a JSON file that contains an array of objects under the name "products", then allow the user to input which item they are looking for to return data.
+
+The program reads in the JSON file as an Item class.
+This Item class contains an array of Products called "products".
+The Products class contains a Name string, a price double, and a quantity int.
+
+The program then goes into a while loop that exits only when an item is found.
+After every user input it checks the array "products" inside of "item" to see if the input matches any of "item.products[x].name"
+    If it does, the item is considered found and the index is set to "item.CurrentIndex" to use later to recall data.
+
+Once an item is found it's name, price, and quantity will be printed.
+
+The program ends.

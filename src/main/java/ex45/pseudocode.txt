@@ -1,0 +1,11 @@
+The goal is to read in a text file as a String and replace all instances of the word "utilize" with "use". The user then chooses the output file name.
+
+The program reads in the text file as a String.
+
+The program then uses string.replace() to replace all instances of utilize with use.
+
+The user is then prompted to give a name for the text file.
+
+The newText is written to the new text file.
+
+The program ends.

@@ -1,0 +1,27 @@
+The goal is to read in a text file that contains words, count how many of each word there are, and display that using asterisks.
+
+The program takes in the text file as a List of String's.
+That List of String's is then converted into another List of String's that are each individual word.
+
+The 2nd List of String's is then put into a for loop where it is converted into an ArrayList of Word objects:
+///
+for each element in the 2nd list of strings
+{
+    if the current element is already in the ArrayList of Word's
+    {
+        add to that Word object's amounts
+    }
+}
+
+if the word is unique
+{
+    add it to the ArrayList of Word objects
+}
+///
+
+A for loop then happens for each element of the ArrayList of Word objects
+    It prints out the word
+    Another for loop is here to count how many asterisks need to be printed.
+        An Asterisk is printed
+
+The program ends.

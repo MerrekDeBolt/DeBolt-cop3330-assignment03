@@ -1,0 +1,9 @@
+The goal is to read in a text file, sort it, then write it to a new text file.
+
+The program reads in the text file as a List of String's.
+
+The List of String's is then sorted alphabetically.
+
+Then the List of String's goes through a for loop to write to a text file.
+
+The program ends.
